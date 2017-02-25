@@ -17,7 +17,7 @@ var transporter = nodemailer.createTransport({
 });
 var i=0;
 var subject = 'Papa<parshkin67@mail.ru>';
-var arr = new Array("PAPA", "MISHA", "OTEC");
+var arr = new Array("PAPA", "MISHA", "OTEC", "BATYA");
 for(var i=0; i<arr.length; i++) {
 
     var message = '<b> hello,'+arr[i]+'</b>';
